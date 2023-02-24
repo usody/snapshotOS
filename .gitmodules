@@ -1,0 +1,4 @@
+[submodule "hardware-metadata"]
+	path = hardware-metadata
+	url = git@github.com:usody/hardware-metadata.git
+	branch = testing
