@@ -7,17 +7,18 @@ and this project adheres to [Calendar Versioning](https://calver.org/#scheme) sc
 ## prod
 
 ## testing
-[2023.02.0-alpha]-[1.0.0-alpha]
+[2023.02.0-beta]-[1.0.0-alpha]
 
 ----
 ## [Unreleased]
 
 
-## [2023.02.0-alpha]-[1.0.0-alpha] (2023/02/24)
+## [2023.02.0-beta]-[1.0.0-alpha] (2023/02/24)
 _(dmidecode = 3.3 | smartmontools = 7.2 | hwinfo = 21.72 | lshw = 02.19 | lspci = 3.7.0)_
 
 - [added] git submodule hardware-metadata 1.0.0-alpha
 - [removed] build folder
+- [fixed] hardware-metadata path folder
 
 ---
 ---

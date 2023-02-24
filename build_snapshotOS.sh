@@ -257,7 +257,7 @@ prepare_app() {
   # prepare app during prepare_chroot_env
   hwmd_dir="${ISO_PATH}/chroot/opt/hwmd"
   mkdir -p "${hwmd_dir}"
-  ${SUDO} cp ../hardware-metadata/*.py "${hwmd_dir}"
+  ${SUDO} cp hardware-metadata/*.py "${hwmd_dir}"
   cat > "${ISO_PATH}/chroot/root/.profile" <<END
 stty -echo # Do not show what we type in terminal so it does not meddle with our nice output
 dmesg -n 1 # Do not report *useless* system messages to the terminal
@@ -451,7 +451,7 @@ main() {
   if [ "${DEBUG:-}" ]; then
     OS_VERSION='debug'
   else
-    OS_VERSION='2023.02.0-alpha'
+    OS_VERSION='2023.02.0-beta'
   fi
   iso_name="SnapshotOS_${OS_VERSION}"
   hostname='snapshotOS'
